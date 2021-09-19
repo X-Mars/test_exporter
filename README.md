@@ -1,6 +1,7 @@
 ### 项目介绍
 1. prometheus exporter 开发示例代码
 2. 可以基于该功能扩展其他功能
+3. [参考官方文档](https://prometheus.io/docs/instrumenting/writing_exporters/)
 ### 食用方法
 1. 安装组件
 ```shell
@@ -17,4 +18,4 @@ python -m flask run --host=192.168.68.244
       - targets: ["192.168.68.244:5000"]
 ```
 4. 访问 prometheus web 检索
-5. 
+![prometheus](image/1.jpg)
